@@ -76,7 +76,7 @@ export default {
                         .setName("max_tickets_per_user")
                         .setDescription("Maximum number of tickets a user can create (default: 3)")
                         .setMinValue(1)
-                        .setMaxValue(10)
+                        .setMaxValue(50)
                         .setRequired(false),
                 )
                 .addBooleanOption((option) =>
